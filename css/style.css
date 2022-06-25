@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6ca694;
+    margin-top: 30px;
+    
+}
+
+#container {
+    
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #c0f4e8;
+    background-image: url(../images/mulher-olhar-distante.png);
+    background-repeat: no-repeat;
+    
+    background-position: bottom left;
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    max-width: 1000px;;
+    height: 250px;
+}
+
+header h1 {
+    position: absolute;
+    color: white;
+    top: 90px;
+    right: 150px;
+    text-shadow: 2px 2px 5px rgb(25, 185, 124);
+         
+}
+
+header p {
+    position: absolute;
+    color: white;
+    top: 170px;
+    right: 58px;
+    text-shadow: 2px 2px 5px rgb(0, 27, 17);
+}
+
+#logo {
+    position: absolute;
+    top: 60px;
+    right: 500px;
+}
+
+#main {
+    position: relative;
+    height: 300px;
+    width: 70%;
+    margin-right: 10px;
+    padding: 30px;
+    background-color: rgba(222, 235, 232, 0.8);
+    border-radius: 10px 10px 0 0;
+    float: right;
+    box-sizing: border-box;
+    
+}
+#content {
+    position: absolute;
+    width: 50%;
+    left: 20px;
+}
+
+#content h2 {
+    color: #7aa851;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+#content p {
+    color: #71895c;
+    line-height: 1.5;
+}
+
+#form-container {
+     position: absolute;
+     right: 50px;
+    
+}
+
+label {
+    
+    color: #ee5c90;
+    font-weight: bold;
+    
+}
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 8px;
+    border: 1px solid #ee5c90;
+    border-radius: 10px;
+    color:#71895c;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #ee5c90;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #eb1761;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 1000px;
+    height: 55px;
+    background-color: #ffffff;
+    bottom: 0;
+}
+
+#text-footer {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 0 0 10px 10px;
+    background-color: #9dcd73;
+    font-weight: bold;
+    float: right;    
+}
+
+#text-footer p {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
